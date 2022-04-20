@@ -1,0 +1,76 @@
+/* ============================= */
+/* ====== CSS de la liste ====== */
+/* ============================= */
+
+
+/* ==== Menu des étudiants ==== */
+
+/* Tête */
+
+h1{
+    background: rgb(230 , 230, 230)
+}
+
+/* Corps */
+
+ul li {
+    display:none;
+}
+ul:hover li{
+    display:block;
+}
+li:hover{
+    background:gainsboro;
+}
+ul:last-child li:last-child:hover{
+    background:gainsboro;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul {
+    margin:0;
+    border-top: 1px solid rgb(190,190,190);
+    padding:0;
+    text-align: center;
+    width:11em;
+    /*background-color: rgb(230 , 230, 230)*/
+}
+
+
+ul:last-child {
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+li {
+    
+    
+    
+}
+
+/* CSS général */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*  
+Les groupes :
+*/
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 4em;
+}
+
+article{
+    position:relative;
+    border:1px solid black;
+    border-radius: 10px;
+    
+    
+}
+
